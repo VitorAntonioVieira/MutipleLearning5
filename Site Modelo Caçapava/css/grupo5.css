@@ -6,9 +6,10 @@
     --gray: #878787;
     --redMedium: #9a1915;
     --redDark: #681413;
-    --green: #59bd4b;
-    --blue: #1eb39f;
+    --blue:#1eb39f;
+    --green:#cdfaaf;
 }
+
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 *{
     font-family: 'Montserrat', sans-serif;
@@ -71,6 +72,7 @@ h1 {
     padding-bottom: 4px;
     margin: 0;
     color: var(--black);
+    font-family:"adigiana toybox";
 }
 
 h2 {
@@ -151,4 +153,10 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.puzzle {
+    width: 100%;
+    height: 700px;
+    color: #878787;
 }
