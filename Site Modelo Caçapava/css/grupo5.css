@@ -152,3 +152,9 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+.puzzle {
+    width: 100%;
+    height: 700px;
+    color: #878787;
+}
