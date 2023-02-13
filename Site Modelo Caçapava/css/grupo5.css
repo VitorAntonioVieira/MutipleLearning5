@@ -48,6 +48,10 @@ a {
     align-items: center;
 }
 
+a :hover {
+    opacity: 0.3;
+}
+
 ul {
     list-style: none;
 }
