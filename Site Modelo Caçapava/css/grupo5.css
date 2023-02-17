@@ -12,7 +12,6 @@
 
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 *{
-    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth !important;
 }
@@ -72,7 +71,6 @@ h1 {
     padding-bottom: 4px;
     margin: 0;
     color: var(--black);
-    font-family:"adigiana toybox";
 }
 
 h2 {
