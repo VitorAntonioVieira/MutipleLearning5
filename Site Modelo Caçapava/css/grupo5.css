@@ -160,5 +160,7 @@ footer{
 }
 
 #carouselExample {
+    display:flex;
     padding-bottom: 120px;
+    
 }
