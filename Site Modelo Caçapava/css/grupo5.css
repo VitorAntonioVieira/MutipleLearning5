@@ -70,16 +70,16 @@ h1 {
     padding-top: 16px;
     padding-bottom: 4px;
     margin: 0;
-    color: var(--black);
+    color: var(--blue);
 }
 
-h2 {
+.sub {
     text-align: center;
     font-size: 32px;
     padding-top: 16px;
     padding-bottom: 4px;
     margin: 0;
-    color: var(--black);
+    color: var(--blue);
 }
 
 footer{
@@ -160,6 +160,22 @@ footer{
 }
 
 #carouselExample {
-    display:flex;
-    padding-bottom: 120px;
+    margin-bottom: 120px;
+    max-width: 70%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.interatividade {
+    display: grid;
+    max-height: 700px;
+    grid-template-columns: 30% 50%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    background-color: var(--gray);
+    margin-bottom: 200px;
+}
+
+#puzzleimg {
+    max-width: 500px;
 }
