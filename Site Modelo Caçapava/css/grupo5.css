@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-color: var(--white);
+    background-color: var(--green);
     color: var(--black);
     /* min-height: 60px; */
     width: 100%;
@@ -70,10 +70,10 @@ h1 {
     padding-top: 16px;
     padding-bottom: 4px;
     margin: 0;
-    color: var(--black);
+    color: var(--blue);
 }
 
-h2 {
+.sub {
     text-align: center;
     font-size: 32px;
     padding-top: 16px;
@@ -160,6 +160,27 @@ footer{
 }
 
 #carouselExample {
-    display:flex;
-    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    overflow: hidden;
+    margin: 200px 200px;
+}
+
+.interatividade {
+    display: grid;
+    min-height: 600px;
+    max-height: 700px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 0;
+    background-color: var(--gray);
+    margin: 40px;
+}
+
+#puzzleimg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
