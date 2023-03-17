@@ -81,6 +81,14 @@ h1 {
     color: var(--blue);
 }
 
+.subt{
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin-left: 70px;
+    color: var(--black);
+}
+
 footer{
     background-color: var(--red);
     width: 100%;
