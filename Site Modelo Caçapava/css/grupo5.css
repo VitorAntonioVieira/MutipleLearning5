@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-color: var(--green);
+    background-color: var(--blue);
     color: var(--black);
     /* min-height: 60px; */
     width: 100%;
