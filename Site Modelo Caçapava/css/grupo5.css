@@ -151,6 +151,12 @@ h2{
     width: 700px;
 }
 
+.download {
+    background-color: var(--blue);
+    height: 30px;
+    width: 50px;
+}
+
 .footer-icons {
     display: flex;
     padding: 10px;
