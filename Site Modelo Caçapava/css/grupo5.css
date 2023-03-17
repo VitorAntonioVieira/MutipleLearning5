@@ -65,7 +65,7 @@ main {
 }
 
 
-.sub {
+h1{
     font-size: 32px;
     padding-top: 16px;
     padding-bottom: 4px;
@@ -73,8 +73,8 @@ main {
     color: var(--blue);
 }
 
-.subt{
-    font-size: 20px;
+h2{
+    font-size: 17px;
     padding-top: 16px;
     padding-bottom: 4px;
     margin-left: 70px;
