@@ -140,21 +140,25 @@ h2{
 }
 
 .sub-text {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
-.game {
+#game {
     margin-bottom: 5em;
 }
 
-.map {
-    width: 700px;
-}
-
-.download {
+.download { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-style: none;
+    color: var(--white);
     background-color: var(--blue);
+    padding: 30px;
     height: 30px;
-    width: 50px;
+    width: 100px;
 }
 
 .footer-icons {
@@ -185,6 +189,12 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.text {
+    color: var(--blue);
+    font-size: large;
+    font-weight: bold;
 }
 
 #logoedit {

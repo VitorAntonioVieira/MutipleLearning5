@@ -24,7 +24,7 @@
 
     <link rel="stylesheet" href="css/grupo5.css">
     <script src="main.js"></script>
-    
+
     <title>vídeos Multiple Learning</title>
 </head>
 
@@ -59,7 +59,9 @@
 
     <main>
         <div class="container">
-            <a href="index.html"><img id="logoedit" src="img/Logo_Multiple-Learning.png"></a>
+            <a href="index.html">
+                <img id="logoedit" src="img/Logo_Multiple-Learning.png">
+            </a>
         </div>
         <p class="sub">Células e DNA</p>
         <p class="sub-text">Aqui você vai estudar sobre as células, que são as menores unidades estruturais e funcionais
@@ -83,17 +85,22 @@
             </div>
         </div>
 
+        <p class="text">Jogo Interativo</p>
+
         <div class="interatividade">
-            <iframe class="game" width="1040" height="560" src="https://www.youtube.com/embed/DGIb--joV_w"
+            <iframe id="game" width="560" height="315" src="https://www.youtube.com/embed/oeFv-oR2TVc"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
+                allowfullscreen></iframe>
+        </div>
 
-            <p class="sub">Mapa mental</p>
-            <p class="sub-text">Utilize esse mapa par estudar e aprimorar seus conhecimentos sobre o tema. Fique à vontade para baixar o arquivo!</p>
+        <p class="text">Mapa Mental</p>
 
-            <img class="map" src="../Site Modelo Caçapava/img/Célula Animal e Vegetal.png" alt="Mapa sobre células" title="Tipos de células">
+        <div class="interatividade">
+            <iframe id="map" width='100%' height='600px' scrolling='no'
+                src='https:&#x2F;&#x2F;www.goconqr.com&#x2F;pt-BR&#x2F;p&#x2F;38586307-vegetal-animal-procarionte-eucarionte-mind_maps?frame=true'
+                style='border: 1px solid #1eb39f' allowfullscreen webkitallowfullscreen mozallowfullscreen
+                oallowfullscreen msallowfullscreen></iframe>
 
             <button onclick="download()" type="button" class="download">Baixar</button>
         </div>
