@@ -16,11 +16,6 @@
     scroll-behavior: smooth !important;
 }
 
-html {
-    width: 100%;
-    height: 100%;
-}
-
 body {
     margin: 0;
     font-size: 1rem;
@@ -64,14 +59,14 @@ main {
     height: 100%;
 }
 
-h1 {
-    text-align: center;
-    font-size: 48px;
-    padding-top: 16px;
-    padding-bottom: 4px;
-    margin: 0;
-    color: var(--blue);
+footer{
+    margin-top: 3em;
+    background-color: var(--red);
+    width: 100%;
+    height: 210px;
+    position: sticky;
 }
+/* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
 
 .sub {
     font-size: 32px;
@@ -81,14 +76,6 @@ h1 {
     color: var(--blue);
 }
 
-footer{
-    background-color: var(--red);
-    width: 100%;
-    height: 25%;
-    bottom: 0;
-    z-index: 999;
-}
-/* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
 .container {
     max-width: 1140px;
 }
@@ -152,34 +139,8 @@ footer{
     text-align: center;
 }
 
-.puzzle {
-    width: 100%;
-    height: 700px;
-    color: #878787;
-}
-
-#carouselExample {
-    display: flex;
-    justify-content: center;
-    height: 600px;
-    overflow: hidden;
-    margin: 400px 200px;
-}
-
 .interatividade {
-    display: grid;
-    min-height: 600px;
-    max-height: 700px;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    gap: 0;
-    background-color: var(--gray);
-    margin: 40px;
-}
-
-#puzzleimg {
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
 }
