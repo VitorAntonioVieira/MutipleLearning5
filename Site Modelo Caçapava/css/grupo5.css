@@ -139,6 +139,9 @@ h2{
     color: var(--blue);
 }
 
+.sub-text {
+    margin-bottom: 40px;
+}
 .footer-icons {
     display: flex;
     padding: 10px;
