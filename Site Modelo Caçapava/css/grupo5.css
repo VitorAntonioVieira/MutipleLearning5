@@ -143,10 +143,6 @@ h2{
     margin-bottom: 60px;
 }
 
-#game {
-    margin-bottom: 5em;
-}
-
 .download { 
     text-align: center;
     margin-top: 50px;
@@ -201,4 +197,10 @@ h2{
 
 #download {
     color: white;
+}
+
+#VIDEO {
+    width: 724px;
+    height: 450px;
+    margin-bottom: 30px
 }
