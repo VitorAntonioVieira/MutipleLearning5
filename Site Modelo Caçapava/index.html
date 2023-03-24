@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Turmas dos Cursos Técnicos de 2023">
-    <meta name="keywords" content="SESI,SENAI,Caçapava-SP,Escola,DEV,Multimídia,Desenvolvimento de Sistemas,Novo Ensino Médio,Multiple Learning">
-    <meta name="description" content="Portal educacional desenvolvido pelos alunos dos cursos Técnico de Desenvolvimento de Sistemas e Multimídia do SESI-SENAI de Caçapava">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
-    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Portal Educacional SESI-SENAI Caçapava</title>
+    <meta name="keywords"
+        content="SESI,SENAI,Caçapava-SP,Escola,DEV,Multimídia,Desenvolvimento de Sistemas,Novo Ensino Médio,Multiple Learning">
+    <meta name="description"
+        content="Portal educacional desenvolvido pelos alunos dos cursos Técnico de Desenvolvimento de Sistemas e Multimídia do SESI-SENAI de Caçapava">
+
+    <!-- Fonte para texto -->
+    <!-- Fonte para texto -->
+
+    <!-- Fonte para títulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Fonte para títulos  -->
+
+    <link rel="stylesheet" href="css/grupo5.css">
+    <script src="main.js"></script>
+
+    <title>Multiple Learning Biologia Células e DNA</title>
 </head>
+
 <body>
     <header>
+        <!-- Navbar padrão da plataforma (sem link para vídeos e podcasts**) -->
         <nav class="navbar">
             <a class="navbar-logo" href="index.html">
                 <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
@@ -25,102 +42,58 @@
                     <li class="navbar-items-menu">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
+                    <!--** <li class="navbar-items-menu">
+                        <a class="nav-link" href="#videos">Vídeos</a>
+                    </li>
+                    <li class="navbar-items-menu">
+                        <a class="nav-link" href="#podcasts">Podcasts</a>
+                    </li> **-->
+                    <li class="navbar-items-menu">
+                        <a class="nav-link" href="#interatividade">Interatividade</a>
+                    </li>
+                    <li class="navbar-items-menu">
+                        <a class="nav-link" href="#compartilhar">Compartilhar</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="logo-content">
-            <img id="img-logo" src="img/Logo_Multiple-Learning.png" alt="Logo do Portal" description="Logo do Portal Multiple Learning">
-        </div>
-        <h1>Multiple Learning</h1>
         <div class="container">
-            <div class="materias">
-                <h2>Matérias</h2>
-                <ul class="grid-columns">
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo1.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/calculating.png" alt="icone de matemática">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Regra de Sinais</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo2.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/venn-diagram.png" alt="icone de matemática">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Produtos Notáveis e Fatoração</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo3.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/linguistics.png" alt="icone de linguística">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">História da Literatura: Romantismo e Modernismo</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo4.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/calculator.png" alt="icone de matemática">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Tabuada</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo5.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/globe.png" alt="icone de geografia">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Geografia: Fuso Horário e Fluxo Populacional</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo6.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/philosophy.png" alt="icone de filosofia">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Sociologia/Filosofia: Midias sociais</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo5.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/dna.png" alt="icone de biologia">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Células e DNA</span>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo8.html">
-                            <div class="linha-grid-col">
-                                <img class="icons-materia" src="img/language.png" alt="icone de portuguÊs">
-                            </div>
-                            <div class="linha-grid-col-text">
-                                <span class="text-materia">Verbo</span>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>         
+            <a href="index.html">
+                <img id="logoedit" src="img/Logo_Multiple-Learning.png">
+            </a>
+        </div>
+        <p class="sub">Células e DNA</p>
+        <p class="sub-text">Aqui você vai estudar sobre as células, que são as menores unidades estruturais e funcionais
+            dos seres vivos, e o DNA,
+            que é um ácido nucleico que apresenta todas as informações genéticas de um indivíduo.</p>
+
+        <p class="text">Jogo Interativo</p>
+
+        <div class="interatividade">
+            <iframe id="VIDEO" width="560" height="315" src="https://www.youtube.com/embed/-Vv3USW7iRU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="text">Mapa Mental</p>
+
+        <div class="interatividade">
+            <iframe id="map" width='100%' height='600px' scrolling='no'
+                src='https:&#x2F;&#x2F;www.goconqr.com&#x2F;pt-BR&#x2F;p&#x2F;38586307-vegetal-animal-procarionte-eucarionte-mind_maps?frame=true'
+                style='border: 1px solid #1eb39f' allowfullscreen webkitallowfullscreen mozallowfullscreen
+                oallowfullscreen msallowfullscreen></iframe>
+
+            <button type="button" class="download"><a id="download" href="img/Célula Animal e Vegetal.png"
+                    download="Célula Animal e Vegetal.png">Baixar</a></button>
+        </div>
+
+        <div class="compartilhar">
+            <div>
+            </div>
         </div>
     </main>
 
@@ -149,4 +122,5 @@
         </div>
     </footer>
 </body>
+
 </html>
