@@ -8,7 +8,7 @@
     --redDark: #681413;
     --blue: #1eb39f;
     --green: #cdfaaf;
-    --bluebb: #d9fff7 ;
+    --bluebb: #d9fff7;
 }
 
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
@@ -127,6 +127,11 @@ h2 {
     padding-right: 10px;
 }
 
+.logoedit {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -193,7 +198,7 @@ h2 {
 }
 
 #logoedit {
-    width: 600px;
+    width: 60%;
 }
 
 #download {
