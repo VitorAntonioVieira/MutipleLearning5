@@ -209,6 +209,25 @@ h2 {
     font-size: large;
     font-weight: bold;
 }
+.navbar-toggler{
+    padding: 0;
+    border-bottom: 5px solid transparent;
+    font-weight: 700;
+    color: var(--black);
+    padding-left: 190px;
+    padding-right: 10px;
+
+}
+
+.navbar-toggler-icon{
+    padding: 0;
+    border-bottom: 5px solid transparent;
+    font-weight: 700;
+    color: var(--black);
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
 
 #logoedit {
     width: 60%;
