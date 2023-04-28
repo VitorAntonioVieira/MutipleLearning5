@@ -18,8 +18,19 @@
 }
 
 @media (max-width: 768px) {
+    #VIDEO {
+        max-width: 400px;
+        max-height: 200px;
+        margin-bottom: 400px
+    }
+        .interatividade {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
     /* estilos aplicados a dispositivos com tela menor ou igual a 768px */
-}
 
 @media (min-width: 769px) and (max-width: 1024px) {
     /* estilos aplicados a dispositivos com tela entre 769px e 1024px */
