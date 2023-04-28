@@ -17,6 +17,18 @@
     scroll-behavior: smooth !important;
 }
 
+@media (max-width: 768px) {
+    /* estilos aplicados a dispositivos com tela menor ou igual a 768px */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* estilos aplicados a dispositivos com tela entre 769px e 1024px */
+}
+
+@media (min-width: 1025px) {
+    /* estilos aplicados a dispositivos com tela maior que 1025px */
+}
+
 body {
     margin: 0;
     font-size: 1rem;
@@ -105,6 +117,7 @@ h2 {
 
 .navbar-logo {
     align-items: center;
+    margin-bottom: 2%;
 }
 
 .navbar-items {
