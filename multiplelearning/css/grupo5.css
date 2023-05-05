@@ -20,23 +20,36 @@
 @media (max-width: 768px) {
     #VIDEO {
         max-width: 400px;
-        max-height: 200px;
-        margin-bottom: 400px
+        max-height: 350px;
+        margin-bottom: 300px;
+        margin-left:30px;
     }
-}
-       
-    /* estilos aplicados a dispositivos com tela menor ou igual a 768px */
-
-@media (min-width: 769px) and (max-width: 1024px) {
     .interatividade {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 600px;
-        max-height: 200px;
-        margin-bottom: 400px
+        max-width: 500px;
+        max-height: 500px;
+        margin-bottom: 75px;
+        margin-left:40px;
     }
+    .text{
+        margin-left: 50px;
+    }
+    .sub{
+        margin-left:50PX;
+    }
+    .sub-text{
+        margin-left: 50px;
+    }
+
+}
+       
+    /* estilos aplicados a dispositivos com tela menor ou igual a 768px */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
     /* estilos aplicados a dispositivos com tela entre 769px e 1024px */
 }
 
