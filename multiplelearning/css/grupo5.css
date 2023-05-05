@@ -52,8 +52,8 @@
 
 @media (min-width: 720px) and (max-width: 2532px) {
    .navbar{
-    max-width: 900px;
-    max-height: 850px;
+    max-width: 700px;
+    max-height: 650px;
    }
     /* estilos aplicados a dispositivos com tela entre 769px e 1024px */
 }
