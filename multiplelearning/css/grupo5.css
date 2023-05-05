@@ -55,8 +55,8 @@ ul {
 main {
     max-width: 1140px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     height: 100%;
 }
 
@@ -180,15 +180,19 @@ h2 {
         font-weight: bold;
     }
     #logoedit {
-        width: 60%;
+        width: 70%;
     }
     #download {
         color: white;
     }
     #VIDEO {
-        max-width: 400px;
-        max-height: 200px;
-        margin-bottom: 400px
+        width: 426px;
+        height: 240px;
+        margin-bottom: 60px
+    }
+    #map {
+        width: 450px;
+        height: 300px;
     }
     #burger {
         display: flex;
@@ -311,6 +315,10 @@ h2 {
         height: 405px;
         margin-bottom: 30px
     }
+    #map {
+        width: 800px;
+        height: 600px;
+    }
     #burger {
         display: none;
     }
@@ -419,7 +427,11 @@ h2 {
     #VIDEO {
         width: 720px;
         height: 405px;
-        margin-bottom: 30px
+        margin-bottom: 100px
+    }
+    #map {
+        width: 1020px;
+        height: 600px;
     }
     #burger {
         display: none;
