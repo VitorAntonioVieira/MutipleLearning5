@@ -23,6 +23,7 @@
         max-height: 250px;
         margin-bottom: 100px;
         margin-left:30px;
+        margin-right: 30px;
     }
     .interatividade {
         display: flex;
@@ -33,6 +34,7 @@
         max-height: 500px;
         margin-bottom: 75px;
         margin-left:40px;
+        margin-right: 40px
     }
     .text{
         margin-left: 50px;
@@ -48,12 +50,43 @@
        
     /* estilos aplicados a dispositivos com tela menor ou igual a 768px */
 
-@media (min-width: 769px) and (max-width: 1024px) {
-   
+@media (min-width: 720px) and (max-width: 2532px) {
+   .navbar{
+    max-width: 700px;
+    max-height: 650px;
+   }
     /* estilos aplicados a dispositivos com tela entre 769px e 1024px */
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 720px) and (max-width:2532px){
+    #VIDEO {
+        max-width: 350px;
+        max-height: 250px;
+        margin-bottom: 75px;
+        margin-left:30px;
+        margin-right: 30px;
+    }
+    .interatividade {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        max-height: 500px;
+        margin-bottom: 60px;
+        margin-left:40px;
+        margin-right: 30px
+    }
+    .text{
+        margin-left: 50px;
+    }
+    .sub{
+        margin-left:50PX;
+    }
+    .sub-text{
+        margin-left: 50px;
+    }
+
     /* estilos aplicados a dispositivos com tela maior que 1025px */
 }
 
