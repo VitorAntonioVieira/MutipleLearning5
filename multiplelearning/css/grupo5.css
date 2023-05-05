@@ -58,7 +58,7 @@
     /* estilos aplicados a dispositivos com tela entre 769px e 1024px */
 }
 
-@media (min-width: 720px) and (max-width:2532px){
+@media (min-width: 480px) and (max-width:2532px){
     #VIDEO {
         max-width: 350px;
         max-height: 250px;
