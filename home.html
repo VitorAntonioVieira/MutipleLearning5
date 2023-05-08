@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Turmas dos Cursos Técnicos de 2023">
-    <meta name="keywords" content="SESI,SENAI,Caçapava-SP,Escola,DEV,Multimídia,Desenvolvimento de Sistemas,Novo Ensino Médio,Multiple Learning">
-    <meta name="description" content="Portal educacional desenvolvido pelos alunos dos cursos Técnico de Desenvolvimento de Sistemas e Multimídia do SESI-SENAI de Caçapava">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+    <meta name="keywords"
+        content="SESI,SENAI,Caçapava-SP,Escola,DEV,Multimídia,Desenvolvimento de Sistemas,Novo Ensino Médio,Multiple Learning">
+    <meta name="description"
+        content="Portal educacional desenvolvido pelos alunos dos cursos Técnico de Desenvolvimento de Sistemas e Multimídia do SESI-SENAI de Caçapava">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Portal Educacional SESI-SENAI Caçapava</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <title>Portal Educacional SESI-SENAI</title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar">
-            <a class="navbar-logo" href="index.html">
-                <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
-            </a>
-            <div class="navbar-menu">
-                <ul class="navbar-items">
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-logo" href="index.html">
+                    <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
+                </a>
 
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
     <main>
         <div class="logo-content">
-            <img id="img-logo" src="img/Logo_Multiple-Learning.png" alt="Logo do Portal" description="Logo do Portal Multiple Learning">
+            <img id="img-logo" src="img/Logo_Multiple-Learning.png" alt="Logo do Portal"
+                description="Logo do Portal Multiple Learning">
         </div>
-        <h1>Multiple Learning</h1>
         <div class="container">
             <div class="materias">
                 <h2>Matérias</h2>
                 <ul class="grid-columns">
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo1.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo7.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/calculating.png" alt="icone de matemática">
                             </div>
@@ -49,7 +68,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
+                    <li class="col-3 hover-shadow">
                         <a class="linha-grid" href="grupo2.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/venn-diagram.png" alt="icone de matemática">
@@ -59,18 +78,18 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo3.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo1.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/linguistics.png" alt="icone de linguística">
                             </div>
                             <div class="linha-grid-col-text">
-                                <span class="text-materia">História da Literatura: Romantismo e Modernismo</span>
+                                <span class="text-materia">História da Literatura, Romantismo e Modernismo</span>
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo4.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo6.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/calculator.png" alt="icone de matemática">
                             </div>
@@ -79,8 +98,8 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo5.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo3.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/globe.png" alt="icone de geografia">
                             </div>
@@ -89,17 +108,17 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
-                        <a class="linha-grid" href="grupo6.html">
+                    <li class="col-3 hover-shadow">
+                        <a class="linha-grid" href="grupo4.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/philosophy.png" alt="icone de filosofia">
                             </div>
                             <div class="linha-grid-col-text">
-                                <span class="text-materia">Sociologia/Filosofia: Midias sociais</span>
+                                <span class="text-materia">Períodos Históricos</span>
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
+                    <li class="col-3 hover-shadow">
                         <a class="linha-grid" href="index.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/dna.png" alt="icone de biologia">
@@ -109,36 +128,36 @@
                             </div>
                         </a>
                     </li>
-                    <li class="col-3">
+                    <li class="col-3 hover-shadow">
                         <a class="linha-grid" href="grupo8.html">
                             <div class="linha-grid-col">
                                 <img class="icons-materia" src="img/language.png" alt="icone de portuguÊs">
                             </div>
                             <div class="linha-grid-col-text">
-                                <span class="text-materia">Verbo</span>
+                                <span class="text-materia">Verbos</span>
                             </div>
                         </a>
                     </li>
                 </ul>
-            </div>         
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="footer-icons">
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://www.facebook.com/senaitaubate">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://twitter.com/senai_taubate">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://www.instagram.com/senaitaubate/">
                 <i class="fab fa-instagram"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://br.linkedin.com/company/escolasenaitaubate">
                 <i class="fab fa-linkedin-in"></i>
             </a>
-            <a class="items-social-media" href="#">
+            <a class="items-social-media" href="https://www.youtube.com/@SenaiSaoPauloSP">
                 <i class="fab fa-youtube"></i>
             </a>
         </div>
@@ -149,4 +168,5 @@
         </div>
     </footer>
 </body>
+
 </html>
