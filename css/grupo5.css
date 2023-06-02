@@ -98,10 +98,10 @@ h2 {
         padding: 50px 0 20px 0;
     }
     .navbar-menu {
-        display: none;
+        display: flex;
     }
     .nav-link {
-        display: none;
+        display: flex;
     }
     .navbar-logo {
         width: 30%;
